@@ -1,0 +1,101 @@
+@media screen and (min-width:768px) {
+	.header {
+		background-image: url(../images/pc_top_bg.jpg);
+		padding-top: 200px;
+	}
+	.join_game {
+		background: url(../images/pc_house.jpg) center top no-repeat;
+		background-size: 100% auto;
+	}
+	.foot_bg {
+		background:url(../images/pc_foot_bg.jpg) center bottom no-repeat;
+        background-size: 100% auto;
+        padding-bottom: 460px;
+	}
+	.common_title span {
+		width: 263px;
+		height: 76px;
+		line-height: 76px;
+	}
+	.block_item {
+		margin-right: 15px;
+	}
+	.intro {
+		margin-top: 80px;
+	}
+	.intro h3 {
+		font-size: 48px;
+	}
+	.intro p {
+		margin-top: 30px;
+		font-size: 24px;
+		line-height: 50px;
+	}
+	.item ul li {
+		float: none;
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width:0px) and (max-width: 1200px) {
+	.block_list {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo img {
+		width: 160px;
+	}
+	.title {
+		font-size: 60px;
+	}
+	.common_intro {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.header {
+		background-image: url(../images/top_bg.jpg);
+		padding-top: 70px;
+	}
+	.foot_bg{
+		background:url(../images/foot_bg.png) center bottom no-repeat;
+		background-size: 100% auto;
+		padding-bottom: 100px;
+	}
+	
+	.join_game {
+		background: url(../images/house.jpg) center top no-repeat;
+		background-size: 100% auto;
+	}
+	.logo img {
+		width: 200px;
+	}
+	.title {
+		font-size: 36px;
+	}
+	.nav_btn {
+		display: block;
+	}
+	.nav {
+		display: none;
+	}
+	.nav_mobile {
+		display: block;
+	}
+	.common_title {
+		font-size: 24px;
+	}
+	.invest_form .item {
+		margin: 10px 10px;
+		margin-left: 15px;
+	}
+	.item ul li:nth-child(5) {
+		clear: both;
+	}
+	.block_box ul li:nth-last-child(-n+2) {
+     border-bottom: none;
+    }
+}
