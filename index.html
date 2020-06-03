@@ -86,11 +86,7 @@
 									<span v-if="buyToken.layer>=11">{{langItem.token.fund[1]}}，</span>
 									<span v-else>{{langItem.token.fund[0]}}，L{{buyToken.layer}}，</span>
 									1ETH={{buyToken.ethRatio}} ATK
-									<p>
-										<span v-if="buyToken.layer>=11">{{langItem.token.quota[0]}}</span>
-										<span v-else>{{langItem.token.quota[1]}}</span>
-										：{{buyToken.quoat |numFilter}} ATK
-									</p>
+									
 								</div>
 
 								<div class="form_box">
@@ -390,27 +386,7 @@
 						</div>
 						<!--my team end-->
 						
-						<div class="block_item data_box">
-							<h3>{{langItem.statistics.title}}</h3>
-							<ul>
-								<li>
-									<dl>
-										<dt>{{langItem.statistics.token_sales}}</dt>
-										<dd>{{statistics.tokenSales | numFilter}} ATK</dd>
-									</dl>
-								</li>
-								
-								<li>
-									<dl>
-										<dt>{{langItem.statistics.burn_down}}</dt>
-										<dd>{{statistics.burnDown | numFilter}} ATK</dd>
-									</dl>
-								</li>
-								
-								
-							</ul>
-						</div>
-
+						
 		
 
 					</div>
